@@ -1,1 +1,34 @@
-/* Add CSS Styling */
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.shared {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+#one {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+#two {
+    background-color: yellow;
+}
+
+/* this is the "correct" solution, it is more simple than what i had originally wrote. each button had it's own class and no id's, where i added id's as well as classes. not wrong, but not as lean
+.inverted,
+.fancy {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.inverted {
+  background-color: black;
+  color: white;
+}
+
+.fancy {
+  background-color: yellow;
+}
